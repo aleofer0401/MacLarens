@@ -1,0 +1,64 @@
+body {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: rgba(208, 206, 211, 0.1);
+}
+
+#introduccion{
+  height: 400px;
+  background: url("/proyecto_base_personalizado/img/bar.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.morado {
+  background-color: rgba(82, 20, 206, 0.2);
+  background: linear-gradient(to bottom, rgba(82, 20, 206, 0.4), transparent);
+}
+
+#logo{
+  margin-right: 30px;
+  width: 70px;
+  height: 70px;
+}
+
+.blanco{
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.centrado{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+header{
+  background-color: rgba(82, 20, 206, 0.6);
+}
+
+.marcos{
+  border: 2px solid black;
+}
+
+.izquierda{
+  float: left;
+}
+
+.derecha{
+  float: right;
+}
+
+.secciones{
+  text-align: center;
+}
+
+.card_img_top{
+  background-size: cover;
+}
